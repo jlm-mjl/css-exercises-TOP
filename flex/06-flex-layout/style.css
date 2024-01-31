@@ -6,6 +6,13 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
 
 img {
   width: 600px;
@@ -16,6 +23,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
