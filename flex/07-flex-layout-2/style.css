@@ -31,7 +31,7 @@ body {
 
 .content{
   display: flex;
-  flex:auto;
+  flex: 1;
   align-items: stretch;
 }
 
@@ -57,9 +57,16 @@ a{
   text-decoration: none;
   color: white;
 }
-
+.cards{
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
 }
