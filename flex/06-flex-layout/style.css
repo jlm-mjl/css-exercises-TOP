@@ -10,9 +10,6 @@ body {
   justify-content: space-between;
 }
 
-ul {
-  list-style-type: none;
-}
 
 a{
   text-decoration: none;
@@ -38,4 +35,22 @@ input {
   margin-bottom: 16px;
 }
 
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 16px;
+}
 
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+ul.left-links{
+  margin-right: auto;
+}
